@@ -426,6 +426,6 @@ void il2cpp_dump(const char *outDir) {
     }
     outStream.close();
     LOGI("dump done!");
-    std::string testdir(outPath);
+    std::string testdir(outDir);
     LOGI("dump path %s", testdir);
 }
