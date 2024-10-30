@@ -54,7 +54,7 @@ void hack_start(const char* game_data_dir) {
         }
     }
     if (!load) {
-        LOGI("libil2cpp.so not found in thread %d", gettid());
+        LOGI("nmdlibil2cpp.so not found in thread %d", gettid());
     }
 }
 
